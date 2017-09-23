@@ -1,0 +1,1 @@
+rsync  --archive --compress --force --delete --progress --exclude '.git' --exclude publish . kyle@kemitchell.com:/var/www/berneout.org/
